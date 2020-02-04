@@ -9,11 +9,9 @@ instalar_paquetes<-function(sistema_operativo){
           system("sudo apt install gdal-bin libgdal-dev libproj-dev")
           install.packages("sp")
           install.packages("gstat")
-          install.packages("maptools")
           install.packages("rgeos")
           install.packages("raster")
           install.packages("rgdal")
-          install.packages("automap")
           install.packages("spdep")
           install.packages("spdep")
           install.packages("smoothr")
@@ -21,16 +19,15 @@ instalar_paquetes<-function(sistema_operativo){
           install.packages("ade4")
           install.packages("sf")
           install.packages("nlme")
+          install.packages("lsmeans")
           }
           if(sistema_operativo == "windows"){
           print("Instalando paquetes para entorno Windows")
           install.packages("sp")
           install.packages("gstat")
-          install.packages("maptools")
           install.packages("rgeos")
           install.packages("raster")
           install.packages("rgdal")
-          install.packages("automap")
           install.packages("spdep")
           install.packages("spdep")
           install.packages("smoothr")
@@ -38,6 +35,7 @@ instalar_paquetes<-function(sistema_operativo){
           install.packages("ade4")
           install.packages("sf")
           install.packages("nlme")
+          install.packages("lsmeans")
           }    
           
 }
