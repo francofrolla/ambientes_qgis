@@ -20,6 +20,7 @@ instalar_paquetes<-function(sistema_operativo){
           install.packages("e1071")
           install.packages("ade4")
           install.packages("sf")
+          install.packages("nlme")
           }
           if(sistema_operativo == "windows"){
           print("Instalando paquetes para entorno Windows")
@@ -36,6 +37,7 @@ instalar_paquetes<-function(sistema_operativo){
           install.packages("e1071")
           install.packages("ade4")
           install.packages("sf")
+          install.packages("nlme")
           }    
           
 }
