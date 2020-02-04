@@ -20,6 +20,10 @@ instalar_paquetes<-function(sistema_operativo){
           install.packages("sf")
           install.packages("nlme")
           install.packages("lsmeans")
+          install.packages("cld")
+          install.packages("multcomp")
+          install.packages("multcompView")         
+
           }
           if(sistema_operativo == "windows"){
           print("Instalando paquetes para entorno Windows")
@@ -36,6 +40,9 @@ instalar_paquetes<-function(sistema_operativo){
           install.packages("sf")
           install.packages("nlme")
           install.packages("lsmeans")
+          install.packages("cld")
+          install.packages("multcomp")
+          install.packages("multcompView") 
           }    
           
 }
