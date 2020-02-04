@@ -19,6 +19,7 @@ instalar_paquetes<-function(sistema_operativo){
           install.packages("smoothr")
           install.packages("e1071")
           install.packages("ade4")
+          install.packages("sf")
           }
           if(sistema_operativo == "windows"){
           print("Instalando paquetes para entorno Windows")
@@ -34,6 +35,7 @@ instalar_paquetes<-function(sistema_operativo){
           install.packages("smoothr")
           install.packages("e1071")
           install.packages("ade4")
+          install.packages("sf")
           }    
           
 }
