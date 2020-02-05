@@ -73,7 +73,7 @@ seleccion_modelo<-function(){
 suppressWarnings(seleccion_modelo())
 >print(paste("Modelo final",modelo_final))
 modelovgm<- fit.variogram(semivariograma, fit.method=1, vgm(sill,modelo_final,distancia,nugget))
-#plot(semivariograma,modelovgm ,main="",xlab="Distancia",ylab="Semivarianza")
+plot(semivariograma,modelovgm ,main="",xlab="Distancia",ylab="Semivarianza")
 
 data2<-remove.duplicates(datos)
 >print("Datos originales")
